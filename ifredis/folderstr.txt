@@ -1,0 +1,11 @@
+src/
+  core/
+    lastN.js
+    tailer.js
+  realtime/
+    wsHub.js         # or your sse.js that exposes createWSHub
+    redisBus.js      # ← NEW
+public/
+  index.html
+  app.js
+server.js            # ← UPDATED
